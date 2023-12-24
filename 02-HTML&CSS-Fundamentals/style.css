@@ -87,7 +87,30 @@ li:first-child {
 li:last-child {
   font-style: italic;
 }
-
-article p:last-child {
+/*  Missconception: this won't work !
+article p:first-child {
   color: red;
+} */
+
+/* Styling links */
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
 }
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: #0990dd;
+  font-weight: bold;
+  text-decoration: underline #0990dd;
+}
+
+a:active {
+  background-color: #f7f7f7;
+  font-style: italic;
+}
+/* LVHA -> Link, Visited, Hover & Active rules*/
