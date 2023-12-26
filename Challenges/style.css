@@ -55,10 +55,12 @@ ul li {
   font-family: sans-serif;
   text-transform: uppercase;
   border: none;
+  cursor: pointer;
 }
 
 .cart:hover {
   color: black;
   background-color: white;
   border: none;
+  /* cursor: pointer; */
 }
