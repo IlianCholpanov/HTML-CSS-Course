@@ -9,6 +9,12 @@ body {
 
   border-top: 10px solid #1098ad;
 }
+.container {
+  width: 800px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
 
 .main-header {
   background-color: #f7f7f7;
@@ -115,6 +121,11 @@ li:first-child {
 
 li:last-child {
   font-style: italic;
+}
+
+li a {
+  font-weight: bold;
+  font-family: sans-serif;
 }
 /*  Missconception: this won't work !
 article p:first-child {
