@@ -24,6 +24,7 @@ body {
 
 .price {
   font-size: 24px;
+  margin-bottom: 15px;
 }
 
 .shipping {
@@ -37,12 +38,40 @@ body {
 .more-info:link,
 .more-info:visited {
   color: black;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  display: inline-block;
 }
 
 .more-info:hover,
 .more-info:active {
   text-decoration: none;
+}
+
+/* .color:first-child {
+  margin-top: 20px;
+} */
+
+.color {
+  background-color: #000;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+}
+
+.color-blue {
+  background-color: #2f6ee2;
+}
+.color-red {
+  background-color: #ec2f2f;
+}
+.color-yellow {
+  background-color: #f0bf1e;
+}
+.color-green {
+  background-color: #90cc20;
+}
+.color-brown {
+  background-color: #885214;
 }
 
 .details-title {
@@ -73,4 +102,20 @@ body {
 .add-cart:hover {
   color: #000;
   background-color: #fff;
+}
+h2 {
+  position: relative;
+}
+
+h2::after {
+  content: "SALE";
+  font-size: 12px;
+  font-weight: bold;
+  padding: 8px 13px;
+  background-color: red;
+  color: #fff;
+  position: absolute;
+  top: -15px;
+  left: -35px;
+  letter-spacing: 0.2rem;
 }
