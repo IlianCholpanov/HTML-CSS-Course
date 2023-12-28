@@ -289,3 +289,20 @@ footer {
   font-style: italic;
   font-weight: normal;
 }
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  gap: 75px;
+  margin-bottom: 60px;
+}
+
+article {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+aside {
+  flex: 0 0 200px;
+  /* align-self: flex-start; */
+}
